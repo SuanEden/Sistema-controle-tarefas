@@ -6,12 +6,12 @@ def coleta_dados_demanda():
     usuario =  input('Qual o criador da demanda:'.strip())
     while not usuario:
         usuario = input('Campo obrigatorio\nQual o criador da demanda:'.strip())    
-    titulo = input('Qual a demanda? ')
-    while not usuario:
-        titulo= input('Campo obrigatorio\nQual a demanda?:'.strip())    
+    demanda = input('Qual a demanda? ')
+    while not demanda:
+        demanda = input('Campo obrigatorio\nQual a demanda?:'.strip())    
     data_vencimento = input('Qual a data de vencimento da demanda? ') 
     descricao = input('Descrição da Demanda: ')
-    return usuario, titulo, data_vencimento, descricao
+    return usuario, demanda, data_vencimento, descricao
 
 
 def autenticacao_usuario():
