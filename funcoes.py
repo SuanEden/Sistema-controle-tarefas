@@ -8,6 +8,8 @@ def coletaDadosDemanda():
     data_vencimento = input('Qual a data de vencimento da demanda? ')
     descricao = input('Descrição da Demanda: ')
 
+    return usuario, titulo, data_vencimento, descricao
+
 
 def autenticacaoUsuario():
     """
@@ -35,5 +37,5 @@ def autenticacaoUsuario():
             print('Você exedeu o limete de tentativas')
             sys.exit(f'O sistema se encerrou por exeder o limite de tentativas')
     print(f'Seja bem vindo {usuario}, como está?')
-
+    return usuario, senha
 

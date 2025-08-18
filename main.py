@@ -1,9 +1,9 @@
-from funcoes import coletaDados, altenticacaoUsuario
+from funcoes import coletaDadosDemanda, autenticacaoUsuario
 
 def main():
-    altenticacaoUsuario()
-    coletaDados()
-   
+    nome = autenticacaoUsuario()
+    coletaDadosDemanda()
+    print(nome)
     
 if __name__ == "__main__":
     main()
