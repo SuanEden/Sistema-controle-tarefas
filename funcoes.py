@@ -3,8 +3,9 @@ def coletaDados():
     """
     Coleta as informações da demanda
     """
+    usuario =  ('Qual o criador da demanda:')
     titulo = input('Qual a demanda? ')
-    data = input('Qual a Data da demanda? ')
+    data_vencimento = input('Qual a data de vencimento da demanda? ')
     descricao = input('Descrição da Demanda: ')
 
 
