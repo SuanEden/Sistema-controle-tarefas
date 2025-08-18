@@ -1,5 +1,5 @@
 import sys
-def coletaDados():
+def coletaDadosDemanda():
     """
     Coleta as informações da demanda
     """
