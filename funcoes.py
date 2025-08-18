@@ -9,7 +9,7 @@ def coletaDadosDemanda():
     descricao = input('Descrição da Demanda: ')
 
 
-def altenticacaoUsuario():
+def autenticacaoUsuario():
     """
     Altentica Usuario e senha
     """
