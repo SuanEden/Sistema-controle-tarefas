@@ -1,9 +1,9 @@
 import sys
-def coletaDadosDemanda():
+def coleta_dados_demanda():
     """
     Coleta as informações da demanda
     """
-    usuario =  ('Qual o criador da demanda:')
+    usuario =  input('Qual o criador da demanda:')
     titulo = input('Qual a demanda? ')
     data_vencimento = input('Qual a data de vencimento da demanda? ')
     descricao = input('Descrição da Demanda: ')
@@ -11,7 +11,7 @@ def coletaDadosDemanda():
     return usuario, titulo, data_vencimento, descricao
 
 
-def autenticacaoUsuario():
+def autenticacao_usuario():
     """
     Altentica Usuario e senha
     """
