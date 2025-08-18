@@ -9,6 +9,9 @@ def coletaDados():
 
 
 def altenticacaoUsuario():
+    """
+    Altentica Usuario e senha
+    """
     usuario_resistrado = 'Suan'
     senha_resistrada = '1831'
     limite_tentativas = 2
