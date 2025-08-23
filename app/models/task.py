@@ -10,7 +10,7 @@ upgrated_at -> datetime, gerado automaticamente
 from sqlmodel import SQLModel, Field
 from datetime import datetime
 from sqlalchemy import ForeignKey
-from emun import Enum
+from enum import Enum
 
 class Status(str, Enum):
     todo = "todo"
